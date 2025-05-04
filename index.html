@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <header>AXEGAFIT</header>
+        <form>
+            <div class="field email">
+                <div class="input-area">
+                    <input type="text" placeholder="Correo">
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email no encontrado</div>
+            </div>
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Contraseña">
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Contraseña inexistente</div>
+            </div>
+            <div class="pass-txt"> <a>Olvidaste tu contraseña?</a></div>
+            <input type="submit" value="Iniciar sesion">
+        </form>
+        <div class="sign-txt">No eres miembro? <a>Crear cuenta</a></div>
+     <video  muted autoplay loop id="bg-video">
+            <source src="Img/Video1.mp4" type="video/mp4">
+            <source src="Img/Video2.mp4" type="video/mp4">
+            <source src="Img/Video3.mp4" type="video/mp4">
+        </video>    
+        <div class="capa"></div>
+    </main>
+
+    <script src="script/Index.js"></script>
+
+</body>
+
+</html>
